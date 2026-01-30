@@ -27,7 +27,7 @@ func main() {
 	router := httpserver.NewRouter()
 
 	srv := &http.Server{
-		Addr:              ":5000",
+		Addr:              ":5002",
 		Handler:           router,
 		ReadHeaderTimeout: 5 * time.Second,
 	}
